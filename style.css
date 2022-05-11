@@ -597,12 +597,12 @@ footer .social-links {
         transition: opacity 400ms;
     }
 
+    nav#navigation .menu li a.active,
     nav#navigation .menu li a:hover {
         opacity: 1;
         font-weight: 700;
     }
 
-    nav#navigation .menu li a.active,
     nav#navigation .menu li a::after {
         content: '';
         width: 0;
